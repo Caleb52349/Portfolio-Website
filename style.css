@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+span {
+    color: #17d1ac;
+}
+
 #main {
     padding: 30px 50px;
     position: relative;
