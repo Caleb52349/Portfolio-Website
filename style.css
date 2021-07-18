@@ -197,17 +197,20 @@ nav {
 .about-text h1 {
     font-size: 5rem;
     color: #17d1ac;
+    text-align: center;
 }
 
 .about-text h2 {
     font-size: 3rem;
     color: #FFFFFF;
     font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .about-text h1,
 h2 {
-    margin: 0px;
+    margin: 50px;
     padding: 0px;
 }
 
@@ -216,18 +219,8 @@ h2 {
     color: rgba(255, 255, 255, 0.90);
 }
 
-.about-text button {
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    background-color: #17d1ac;
-}
-
-.about-text button:hover {
-    background-color: #FFFFFF;
-    transition: all ease 0.3s;
+.about-text ul {
+    margin-top: 50px;
 }
 
 
