@@ -49,6 +49,7 @@
         width: 100%;
         box-sizing: border-box;
         padding: 10px 50px;
+        background-color: #edf1fd;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
         z-index: 1;
     }
