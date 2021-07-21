@@ -1,39 +1,39 @@
 window.sr = ScrollReveal();
 sr.reveal(
-    '.name', {
+    '.site-title', {
         duration: 2000,
         origin: 'top',
         distance: '500px'
     });
-window.sr = ScrollReveal();
 sr.reveal(
-    '.cv-btn', {
+    '.banner-image', {
         duration: 2000,
-        delay: 2000,
-        origin: 'bottom'
+        origin: 'top',
+        distance: '500px'
     });
 sr.reveal(
-    '.black-line', {
-        duration: 1000,
+    '.about-image', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px'
+    });
+sr.reveal(
+    '.about-title', {
+        duration: 2000,
         delay: 1000,
-        origin: 'bottom'
-    });
-sr.reveal(
-    '.about-text', {
-        duration: 2000,
-        origin: 'left',
-        distance: '400px',
-    });
-sr.reveal(
-    '.about-model', {
-        duration: 2000,
         origin: 'right',
-        distance: '400px'
+        distance: '500px'
     });
 sr.reveal(
-    '#services', {
+    '.cv-1', {
         duration: 2000,
-        origin: 'left',
-        distance: '500px',
+        delay: 2200,
+        origin: 'bottom',
+
+    });
+sr.reveal(
+    '.project-area', {
+        duration: 2000,
+        origin: 'bottom',
         viewFactor: 0.2
     });
