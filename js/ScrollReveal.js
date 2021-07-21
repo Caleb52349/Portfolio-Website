@@ -43,19 +43,20 @@ sr.reveal(
 
     });
 sr.reveal(
-    '.our-project', {
-        duration: 2000,
-        origin: 'bottom',
-        distance: '100px',
-        viewFactor: 0.2
-    });
-sr.reveal(
     '.single-service', {
         duration: 2000,
         origin: 'bottom',
         distance: '100px',
         viewFactor: 0.2
     });
+sr.reveal(
+    '.our-project', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '100px',
+        viewFactor: 0.2
+    });
+
 sr.reveal(
     '#contact-btn', {
         duration: 2000,
