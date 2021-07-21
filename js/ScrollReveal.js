@@ -54,7 +54,7 @@ sr.reveal(
         duration: 2000,
         origin: 'bottom',
         distance: '100px',
-        viewFactor: 0.2
+        viewFactor: 0.9
     });
 
 sr.reveal(
