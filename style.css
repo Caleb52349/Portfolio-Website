@@ -223,6 +223,35 @@
             margin-top: 50px;
         }
         /* About us */
+        
+        .project-area {
+            padding: 4rem 0;
+            background: #fff;
+        }
+        /* Start Project*/
+        
+        button:focus,
+        button:active button:hover .btn.active {
+            outline: 0px !important;
+            box-shadow: none !important;
+        }
+        
+        .button-group button {
+            background: transparent;
+            border: none;
+            color: rgb(33, 37, 41);
+            line-height: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .button-group button+button {
+            padding-left: 3rem;
+        }
+        
+        .project-area .grid .our-project .img a:hover img {
+            filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+        }
+        /* End Project Area */
         /*Portfolio Page*/
         
         #portfolio {
