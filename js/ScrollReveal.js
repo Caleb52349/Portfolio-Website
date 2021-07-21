@@ -23,16 +23,16 @@ sr.reveal(
     '.about-image', {
         duration: 1000,
         origin: 'left',
-        distance: '500px',
-        viewFactor: 0.5
+        distance: '100px',
+        viewFactor: 0.2
     });
 sr.reveal(
     '.about-title', {
         duration: 1000,
         delay: 1200,
         origin: 'right',
-        distance: '500px',
-        viewFactor: 0.5
+        distance: '100px',
+        viewFactor: 0.2
     });
 sr.reveal(
     '.cv-2', {
@@ -63,3 +63,5 @@ sr.reveal(
         origin: 'bottom',
         viewFactor: 0.6
     });
+
+sr.reveal('.site-title', { mobile: false });
