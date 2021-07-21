@@ -1,6 +1,7 @@
 @import url(./css/button.css);
  :root {
     --text-color: #777777;
+    --primary-color: #edf1fd;
     --border-color: #201f1f17;
     --btn-color: rgb(30, 30, 30);
     --secondary-color: #17d1ac;
@@ -21,7 +22,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #161616;
+    background: var(--primary-color) !important;
 }
 
 ul {
@@ -98,10 +99,10 @@ nav {
 /*Page Content*/
 
 
-/* Intro content */
+/* bannercontent */
 
 .site-main .site-banner {
-    background: #edf1fd;
+    margin-top: 8%;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -133,7 +134,7 @@ nav {
 }
 
 
-/* End Intro Content */
+/* bannerContent */
 
 
 /* Start About Me Area */
@@ -231,6 +232,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #1B1B1B;
 }
 
 #contact-form form {
@@ -570,6 +572,10 @@ p {
     text-align: center;
     color: white;
     font-size: 18px;
+}
+
+footer {
+    background: #1E1E1E;
 }
 
 
