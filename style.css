@@ -375,6 +375,10 @@ ul {
     padding: 0;
 }
 
+.description p {
+    text-align: center;
+}
+
 .section-services {
     padding-top: 110px;
     padding-bottom: 120px;
