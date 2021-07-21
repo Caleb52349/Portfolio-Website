@@ -105,6 +105,10 @@ nav {
     margin-top: 8%;
 }
 
+.site-buttons {
+    margin-top: 50px;
+}
+
 .site-main .site-banner .site-title h3 {
     padding-top: 35%;
     font-weight: 500;
