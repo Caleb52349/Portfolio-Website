@@ -25,3 +25,9 @@ $btns.click(function(e) {
 })
 
 $('.project-area .button-group #btn1').trigger('click');
+
+// Magnific Popup
+$('.project-area .grid .test-popup-link').magnificPopup({
+    type: 'image',
+    gallery: { enabled: true }
+});
