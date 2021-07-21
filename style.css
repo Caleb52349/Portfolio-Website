@@ -227,6 +227,8 @@
         .project-area {
             padding: 4rem 0;
             background: #edf1fd;
+            width: auto;
+            height: auto;
         }
         /* Start Project*/
         
