@@ -98,7 +98,7 @@ nav {
 /*Page Content*/
 
 
-/* Banner Area */
+/* Intro content */
 
 .site-main .site-banner {
     background: #edf1fd;
@@ -133,10 +133,10 @@ nav {
 }
 
 
-/* End Banner Area */
+/* End Intro Content */
 
 
-/* Start About Area */
+/* Start About Me Area */
 
 .site-main .about-area {
     padding: 8rem 5rem;
@@ -155,92 +155,10 @@ nav {
 }
 
 
-/* End About Area */
-
-.name {
-    font-family: calibri;
-    width: 500px;
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    transform: translate(-20%, -50%);
-}
-
-.name p:nth-child(1),
-.name .details {
-    color: #6c707c;
-    font-size: 16px;
-}
-
-.name h1 {
-    font-family: Poppins;
-    font-size: 40px;
-    margin: 0px;
-    letter-spacing: 3px;
-    color: #292929;
-}
-
-.cv-btn {
-    width: 200px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #292929;
-    color: #FFFFFF;
-}
-
-.cv-btn:hover {
-    background-color: #131313;
-    transition: all ease 0.5s;
-}
-
-.black-line {
-    align-self: end;
-    width: 50%;
-    height: 15%;
-    margin-bottom: 4em;
-    position: absolute;
-    bottom: 0px;
-    left: -3%;
-    border-right: 1px solid rgba(41, 41, 41, 0.30);
-}
-
-.black-line::after {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 11px 11px 0 11px;
-    border-color: #292929 transparent transparent transparent;
-    right: -.7em;
-    bottom: -2px;
-}
-
-.social {
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
-    display: flex;
-}
-
-.social a {
-    margin: 6px 12px;
-}
-
-.social i {
-    color: rgba(18, 17, 17, 0.40);
-    font-size: 14px;
-}
-
-.social a:hover i {
-    color: #17d1ac;
-    transition: all ease 0.5s;
-}
+/* End About Me Area */
 
 
-/*Page Content*/
+/* Start Project Section */
 
 .project-area {
     padding: 4rem 0;
@@ -248,39 +166,12 @@ nav {
     height: fit-content;
 }
 
-
-/* Start Project*/
-
-button:focus,
-button:active button:hover .btn.active {
-    outline: 0px !important;
-    box-shadow: none !important;
-}
-
-.button-group button {
-    background: transparent;
-    border: none;
-    color: rgb(33, 37, 41);
-    line-height: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.button-group button+button {
-    padding-left: 3rem;
-}
-
 .project-area .grid .our-project .img a:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 
-/* End Project Area */
-
-
-/*Portfolio Page*/
-
-
-/*Portfolio Page*/
+/*Project Section*/
 
 
 /*Contact Tab*/
