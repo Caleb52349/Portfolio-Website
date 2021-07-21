@@ -33,6 +33,7 @@ sr.reveal(
 sr.reveal(
     '#services', {
         duration: 2000,
-        origin: 'right',
-        distance: '400px'
+        origin: 'left',
+        distance: '500px',
+        viewFactor: 0.2
     });
