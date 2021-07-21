@@ -1,5 +1,11 @@
         /* Start of Navigation Bar */
         
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
         html {
             scroll-behavior: smooth;
         }
@@ -742,15 +748,6 @@
             #services {
                 height: auto;
             }
-            .b-container {
-                flex-wrap: wrap;
-            }
-            .s-box {
-                flex-grow: 1;
-            }
-            .s-b-img img {
-                object-fit: cover;
-            }
             #contact-form form {
                 width: 95% !important;
             }
@@ -777,9 +774,6 @@
             }
             .about-text h1 {
                 font-size: 4rem;
-            }
-            .p-container {
-                width: 100%;
             }
         }
         
@@ -833,16 +827,6 @@
             nav ul li a:hover {
                 background-color: rgba(27, 29, 32, 0.15);
             }
-            .p-container {
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: auto;
-                grid-gap: 10px;
-                height: auto;
-            }
-            .c-b-heading {
-                font-size: 1.4rem;
-                text-align: center;
-            }
             #contact-form {
                 padding: 20px;
                 height: auto;
@@ -888,20 +872,12 @@
         }
         
         @media(max-width:600px) {
-            .p-container {
-                grid-template-columns: 1fr;
-                grid-template-rows: auto;
-            }
-            .c-b-heading {
-                font-size: 1.2rem;
-                text-align: center;
-                margin: 0px 10%;
-            }
+            #main {}
             .name {
-                width: 60%;
+                width: 70%;
             }
             .black-line {
-                margin-bottom: 20px;
+                display: none;
             }
             .social {
                 left: 30px;
@@ -910,8 +886,9 @@
         }
         
         @media(max-width:400px) {
-            .s-box {
-                width: 100%;
-                height: 400px;
+            .section-services {
+                width: auto;
+                margin-top: 40%;
             }
+            .about-text {}
         }
