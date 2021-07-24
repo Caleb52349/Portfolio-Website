@@ -29,3 +29,7 @@ $('.project-area .grid .test-popup-link').magnificPopup({
     type: 'image',
     gallery: { enabled: true }
 });
+$('body, html').css('overflow-x', 'hidden');
+$('html, body').animate({
+    scrollTop: 0
+}, 0);
