@@ -112,6 +112,9 @@
                                                     .menu {
                                                         text-align: center;
                                                     }
+                                                    .banner-image {
+                                                        display: none;
+                                                    }
                                                 }
                                                 
                                                 @media(max-width:550px) {}
