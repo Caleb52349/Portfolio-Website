@@ -138,7 +138,7 @@
         color: black;
     }
     
-    .site-main .about-area .about-title h2>span {
+    .about-area .about-title h2>span {
         display: block;
         font: normal bold 49px/ 60px var(--roboto);
         letter-spacing: 21px;
