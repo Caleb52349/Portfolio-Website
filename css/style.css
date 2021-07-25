@@ -30,7 +30,6 @@
         body {
             margin: 0px;
             padding: 0px;
-            font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         }
         
         ul {
@@ -157,6 +156,7 @@
         
         .site-main .about-area .about-title .paragraph>p {
             padding: .4rem 0;
+            color: blue;
         }
         /* End About Me Area */
         /* Start Project Section */
