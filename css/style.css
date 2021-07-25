@@ -1,4 +1,9 @@
     @import url(./css/button.css);
+    @font-face {
+        font-family: "Roboto";
+        src: url(/fonts/Roboto/Roboto-Regular.ttf);
+    }
+    
      :root {
         --text-color: #777777;
         --primary-color: #edf1fd;
@@ -7,6 +12,7 @@
         --secondary-color: #17d1ac;
         --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
         /* font family variables. */
+        --roboto: 'Roboto', cursive;
     }
     
     *,
@@ -38,6 +44,10 @@
         color: var(--secondary-color)
     }
     /* Start of Navigation Bar */
+    
+    .font-roboto {
+        font-family: var(--roboto);
+    }
     
     nav {
         display: flex;
