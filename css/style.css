@@ -7,7 +7,6 @@
             --secondary-color: #17d1ac;
             --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
             /* font family variables. */
-            --roboto: 'Roboto', cursive;
         }
         
         *,
@@ -25,6 +24,7 @@
         body {
             margin: 0px;
             padding: 0px;
+            font-family: 'Roboto', 'cursive' !important;
         }
         
         ul {
@@ -33,15 +33,6 @@
         
         a {
             text-decoration: none;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        p {
-            font-family: 'Roboto', sans-serif;
         }
         
         span {
