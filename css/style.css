@@ -1,9 +1,4 @@
         @import url(./css/button.css);
-        @font-face {
-            font-family: "Roboto";
-            src: url(/fonts/Roboto/Roboto-Regular.ttf);
-        }
-        
          :root {
             --text-color: #777777;
             --primary-color: #edf1fd;
