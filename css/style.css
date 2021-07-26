@@ -35,14 +35,19 @@
             text-decoration: none;
         }
         
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+        
         span {
             color: var(--secondary-color)
         }
         /* Start of Navigation Bar */
-        
-        .font-roboto {
-            font-family: var(--roboto);
-        }
         
         nav {
             display: flex;
@@ -81,7 +86,7 @@
             font-size: 25px;
             font-weight: bold;
             color: #292929;
-            font-family: Poppins;
+            font-family: 'Roboto', sans-serif;
         }
         
         .toggle {
@@ -145,7 +150,6 @@
         
         .about-area .about-title h2>span {
             display: block;
-            font: normal bold 49px/ 60px var(--roboto);
             letter-spacing: 21px;
         }
         
@@ -184,7 +188,7 @@
         .c-b-heading {
             font-size: 2rem;
             color: #1E1E1E;
-            font-family: calibri;
+            font-family: 'Roboto', sans-serif;
             margin: 10px;
             padding: 5px;
             letter-spacing: 4px;
@@ -194,7 +198,7 @@
         #contact-btn button {
             color: #FFFFFF;
             font-size: 1rem;
-            font-family: calibri;
+            font-family: 'Roboto', sans-serif;
             width: 150px;
             height: 40px;
             margin: 10px;
@@ -264,7 +268,7 @@
         }
         
         .c-l-heading {
-            font-family: calibri;
+            font-family: 'Roboto', sans-serif;
             color: #FFFFFF;
             font-size: 3rem;
             letter-spacing: 2px;
@@ -311,7 +315,7 @@
         .message font {
             font-size: 18px;
             color: #4E4E4E;
-            font-family: calibri;
+            font-family: 'Roboto', sans-serif;
         }
         
         .message {
@@ -333,7 +337,7 @@
             color: #EBEBEB;
             font-size: 18px;
             letter-spacing: 2px;
-            font-family: calibri;
+            font-family: 'Roboto', sans-serif;
         }
         
         .contact-right button:active {
@@ -361,7 +365,7 @@
         .section-services {
             padding-top: 110px;
             padding-bottom: 120px;
-            font-family: "Poppins", sans-serif;
+            font-family: 'Roboto', sans-serif;
             background-color: #161616;
             width: 100%;
             color: #fff;
